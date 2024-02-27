@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+}
+.main{
+    background-color: rgb(24, 23, 23);
+    width: 25%;
+    height:30rem;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left:35%;
+    margin-right: 50%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+#img{
+    width: 28%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.name{
+
+}
+.london{
+    margin-top: -5%;
+    font-size: small;
+    color: rgb(224, 248, 8);
+}
+.info{
+    font-size: 0.8em;
+    margin-bottom: 8%;
+}
+
+.github{
+    background-color: rgb(41, 39, 39) ;
+    border-radius: 5px;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+.frontend{
+    background-color: rgb(41, 39, 39) ;
+    border-radius: 5px;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+.linkedin{
+    background-color: rgb(41, 39, 39) ;
+    border-radius: 5px;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+.twitter{
+    background-color: rgb(41, 39, 39) ;
+    border-radius: 5px;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+    margin-bottom: 0%5%;
+}
+.ig{
+    background-color: rgb(41, 39, 39) ;
+    border-radius: 5px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+.container{
+    line-height: 220%;
+    font-size: small;
+}
+.github:hover{
+    background-color:  rgb(224, 248, 8);
+    color: black;
+}
+.frontend:hover{
+    background-color:  rgb(224, 248, 8);
+    color: black;
+}
+.linkedin:hover{
+    background-color:  rgb(224, 248, 8);
+    color: black;
+}
+.twitter:hover{
+    background-color:  rgb(224, 248, 8);
+    color: black;
+}
+.ig:hover{
+    background-color:  rgb(224, 248, 8);
+    color: black;
+}
+@media screen and (max-width:600px) 
+{
+    .main{
+        width: 90%;
+        margin-top: 35%;
+        margin-left: 5%;
+        height: 40rem;
+        margin-bottom: 35%;
+    }
+    .container{
+        line-height: 370%;
+    }
+    #img{
+        margin-top: 12%;
+        width: 30%;
+    }
+    .london{
+        margin-top: -1%;
+    }
+    .info{
+        margin-top: 6%;
+    }
+    .github{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 33%;
+        padding-right: 33%;
+    }
+    .frontend{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 23%;
+        padding-right: 23%;
+    }
+    .linkedin{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 31%;
+        padding-right: 31%;
+    }
+    .twitter{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 33%;
+        padding-right: 33%;
+    }
+    .ig{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 29%;
+        padding-right: 29%;
+    }
+}
